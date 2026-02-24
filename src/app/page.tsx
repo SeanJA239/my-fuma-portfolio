@@ -66,10 +66,10 @@ export default function Home() {
               Sean
             </h1>
             <p className="text-lg text-[#5A5A5A] mb-2 font-medium">
-              I build things for the web.
+              I build systems across hardware and software.
             </p>
             <p className="text-sm text-[#7A7A7A]">
-              Student / Developer / Learning in public
+              Mechatronic Engineering Student / Developer / Learning in public
             </p>
           </div>
 
@@ -116,17 +116,17 @@ export default function Home() {
                 <span className="font-mono text-xs text-[#7A7A7A] uppercase tracking-wider">Connect</span>
               </div>
               <div className="space-y-2">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/SeanJA239" target="_blank" rel="noopener noreferrer"
                    className="block border-2 border-[#2D2D2D] p-3 font-bold hover:bg-[#2D2D2D] hover:text-white transition-all">
                   GITHUB ↗
                 </a>
-                <a href="mailto:your@email.com"
+                <a href="mailto:s3anjia@gmail.com"
                    className="block border-2 border-[#E2725B] bg-[#E2725B] text-white p-3 font-bold hover:bg-[#c55a47] transition-all">
                   EMAIL →
                 </a>
-                <a href="#"
+                <a href="https://xhslink.com/m/9HGWat8Kfgv" target="_blank" rel="noopener noreferrer"
                    className="block border-2 border-[#2D2D2D] p-3 font-bold hover:bg-[#9DC183] hover:border-[#9DC183] transition-all">
-                  LINKEDIN ↗
+                  XIAOHONGSHU ↗
                 </a>
               </div>
             </div>
@@ -169,26 +169,51 @@ export default function Home() {
                 {/* Project 2 */}
                 <div className="border-l-4 border-[#9DC183] bg-[#F5F2EB] p-4 hover:bg-[#9DC183]/10 transition-colors">
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-[#9DC183] text-white font-black flex items-center justify-center">+</div>
-                    <h3 className="font-bold text-[#2D2D2D] uppercase">More Soon</h3>
+                    <div className="w-10 h-10 bg-[#9DC183] text-white font-black flex items-center justify-center">O</div>
+                    <h3 className="font-bold text-[#2D2D2D] uppercase">OxiDoor</h3>
                   </div>
-                  <p className="text-sm text-[#5A5A5A] mb-3">Building & learning</p>
+                  <p className="text-sm text-[#5A5A5A] mb-3">Smart door lock system</p>
                   <div className="flex flex-wrap gap-1">
                     <span className="text-xs font-mono px-2 py-1 bg-[#2D2D2D] text-white">RUST</span>
-                    <span className="text-xs font-mono px-2 py-1 bg-[#2D2D2D] text-white">GO</span>
+                    <span className="text-xs font-mono px-2 py-1 bg-[#2D2D2D] text-white">ESP32</span>
                   </div>
                 </div>
 
-                {/* Project 3 placeholder */}
-                <div className="border-4 border-dashed border-[#D4D0C8] p-4 flex items-center justify-center min-h-[120px]">
-                  <span className="text-[#7A7A7A] font-mono text-sm">COMING SOON</span>
+                {/* Project 3 */}
+                <div className="border-l-4 border-[#E2725B] bg-[#F5F2EB] p-4 hover:bg-[#E2725B]/10 transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-[#E2725B] text-white font-black flex items-center justify-center">F</div>
+                    <h3 className="font-bold text-[#2D2D2D] uppercase">Firecracker Monitor</h3>
+                  </div>
+                  <p className="text-sm text-[#5A5A5A] mb-3">Infrastructure monitoring for Firecracker nodes</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="text-xs font-mono px-2 py-1 bg-[#2D2D2D] text-white">VICTORIAMETRICS</span>
+                  </div>
                 </div>
 
-                {/* Project 4 placeholder */}
-                <div className="bg-[#2D2D2D] p-4 flex items-center justify-center min-h-[120px]">
-                  <div className="text-center">
-                    <div className="w-8 h-8 border-2 border-white mx-auto mb-2" />
-                    <span className="text-white/60 font-mono text-xs">IN PROGRESS</span>
+                {/* Project 4 */}
+                <div className="border-l-4 border-[#002FA7] bg-[#F5F2EB] p-4 hover:bg-[#002FA7]/10 transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-[#002FA7] text-white font-black flex items-center justify-center">L</div>
+                    <h3 className="font-bold text-[#2D2D2D] uppercase">Lark-Linear</h3>
+                  </div>
+                  <p className="text-sm text-[#5A5A5A] mb-3">Bidirectional integration between Linear and Lark/Feishu</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="text-xs font-mono px-2 py-1 bg-[#2D2D2D] text-white">RUST</span>
+                    <span className="text-xs font-mono px-2 py-1 bg-[#002FA7] text-white">AXUM</span>
+                  </div>
+                </div>
+
+                {/* Project 5 */}
+                <div className="border-l-4 border-[#9DC183] bg-[#F5F2EB] p-4 hover:bg-[#9DC183]/10 transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 bg-[#9DC183] text-white font-black flex items-center justify-center">R</div>
+                    <h3 className="font-bold text-[#2D2D2D] uppercase">Retrieplug</h3>
+                  </div>
+                  <p className="text-sm text-[#5A5A5A] mb-3">Chrome extension to pin & navigate AI conversation branches</p>
+                  <div className="flex flex-wrap gap-1">
+                    <span className="text-xs font-mono px-2 py-1 bg-[#2D2D2D] text-white">JS</span>
+                    <span className="text-xs font-mono px-2 py-1 bg-[#9DC183] text-white">CHROME EXT</span>
                   </div>
                 </div>
               </div>
@@ -233,7 +258,7 @@ export default function Home() {
           <div className="w-8 h-8 bg-[#E2725B] rounded-full" />
           <div className="w-16 h-4 bg-[#9DC183]" />
           <div className="flex-1 h-1 bg-[#2D2D2D]" />
-          <span className="font-mono text-xs text-[#7A7A7A]">2025</span>
+          <span className="font-mono text-xs text-[#7A7A7A]">2026</span>
         </footer>
       </main>
     </div>

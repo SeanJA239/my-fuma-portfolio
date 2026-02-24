@@ -5,3 +5,4 @@ export const source = loader({
   baseUrl: '/blog',
   source: docs.toFumadocsSource(),
 });
+
