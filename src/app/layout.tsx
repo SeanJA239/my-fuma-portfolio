@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sean Jia | Portfolio",
-  description: "Mechatronic Engineering Student & Software Developer",
+  title: "Xiang Jia | Mechatronics & Embedded AI",
+  description:
+    "Xiang Jia is a mechatronics and robotic systems student building embodied AI, robot control, and robust embedded systems.",
 };
 
 export default function RootLayout({
